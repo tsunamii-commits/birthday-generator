@@ -10,11 +10,7 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-<<<<<<< HEAD
     background-color: #fceade;
-=======
-    background-color: rgb(0, 0, 0);
->>>>>>> origin/main
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -36,11 +32,7 @@ body {
     padding: 50px;
     position: relative;
     width: auto;
-<<<<<<< HEAD
     gap: 10px;
-=======
-    gap: 64px;
->>>>>>> origin/main
 }
 
 .header {    
@@ -48,7 +40,6 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
-<<<<<<< HEAD
     color: #ea526f;
 
 }
@@ -62,14 +53,6 @@ body {
     display: flex;
     gap: 5px;
     margin-bottom: 5px;
-=======
-    color: #FFF
-}
-
-.header-title {
-    display: flex;
-    gap: 12px;
->>>>>>> origin/main
 }
 
 .header-title h1 {
@@ -77,15 +60,9 @@ body {
     font-weight: 700;
     font-size: 72px;
     letter-spacing: -4px;
-<<<<<<< HEAD
     line-height: 1em;
     text-align: center;
     margin: 5px;
-=======
-    line-height: 1.2em;
-    text-align: center;
-    margin: 0;
->>>>>>> origin/main
 }
 
 .header-subtitle h2 {
@@ -93,12 +70,8 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 1.4em;
-<<<<<<< HEAD
     color: #1b2021;
     margin-bottom: 5px;
-=======
-    color: rgba(255, 255, 255, 0.75);
->>>>>>> origin/main
 }
 
 .prompt-container {
@@ -107,27 +80,16 @@ body {
     display: flex;
     flex: 0 0 auto;
     flex-flow: column nowrap;
-<<<<<<< HEAD
     margin-top:10px;
     height: min-content;
     padding: 0px;
     width: min-content;
 
-=======
-    gap: 16px;
-    height: min-content;
-    padding: 0px;
-    width: min-content;
->>>>>>> origin/main
 }
 
 .prompt-box {
     border-bottom-width: 1px;
-<<<<<<< HEAD
     border-color: #1b2021;
-=======
-    border-color: rgba(255, 255, 255, 0.1);
->>>>>>> origin/main
     border-left-width: 1px;
     border-right-width: 1px;
     border-style: solid;
@@ -139,7 +101,6 @@ body {
     display: flex;
     flex: 0 0 auto;
     flex-flow: column nowrap;
-<<<<<<< HEAD
     gap: 5px;
     height: 30px;
     overflow: hidden;
@@ -147,15 +108,6 @@ body {
     position: relative;
     width: 400px;
     max-width: 400px;
-=======
-    gap: 10px;
-    height: 150px;
-    overflow: hidden;
-    padding: 20px;
-    position: relative;
-    width: 610px;
-    max-width: 1200px;
->>>>>>> origin/main
     will-change: transform;
     overflow: auto;
     outline: none;
@@ -165,16 +117,10 @@ body {
     letter-spacing: 0px;
     line-height: 1.6em;
     text-align: start;
-<<<<<<< HEAD
     color: #1b2021;
     text-decoration: none;
     text-transform: none;
     margin-top: 10px;
-=======
-    color: rgba(255, 255, 255, 0.75);
-    text-decoration: none;
-    text-transform: none;
->>>>>>> origin/main
 }
 
 textarea {
@@ -183,17 +129,12 @@ textarea {
 
 
 .prompt-box:focus {
-<<<<<<< HEAD
     border-color: #ea526f;
-=======
-    border-color:rgba(255, 255, 255, 0.75)
->>>>>>> origin/main
 }
 
 
 .prompt-buttons {
     display: flex;
-<<<<<<< HEAD
     place-content: center flex-start;
     align-items: center;
     justify-content: center;
@@ -208,19 +149,6 @@ textarea {
     width: 100%;
     margin-bottom: -30px;
 
-=======
-    place-content: center;
-    align-items: center;
-    justify-content: flex-end;
-    flex: 0 0 auto;
-    flex-flow: row nowrap;
-    gap: 12px;
-    height: min-content;
-    overflow: hidden;
-    padding: 0px;
-    position: relative;
-    width: 100%;
->>>>>>> origin/main
 }
 
 .key-stroke {
@@ -255,19 +183,11 @@ textarea {
 }
 
 .generate-button {
-<<<<<<< HEAD
     display: flex;
     place-content: center flex-start;
     align-items: center flex-start;
     background-color: #ff8a5b;
     border-radius: 100px;
-=======
-    place-content: flex-start;
-    align-items: flex-start;
-    background-color: rgb(255, 79, 18);
-    border-radius: 100px;
-    display: flex;
->>>>>>> origin/main
     flex: 0 0 auto;
     flex-flow: column nowrap;
     gap: 10px;
@@ -283,25 +203,15 @@ textarea {
 
 .generate {
     outline: none;
-<<<<<<< HEAD
     display: center flex-start;
     flex-direction: column;
     justify-content: center flex-start;
-=======
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
->>>>>>> origin/main
     flex-shrink: 0;
     transform: none;
 }
 
 .generate p {
-<<<<<<< HEAD
     color: #FFF;
-=======
-    color: rgb(255, 255, 255);
->>>>>>> origin/main
     margin: 0;
 }
 
@@ -377,11 +287,7 @@ textarea {
     display: flex;
     flex: 0 0 auto;
     flex-flow: column nowrap;
-<<<<<<< HEAD
     margin-top: 50px;
-=======
-    gap: 10px;
->>>>>>> origin/main
     height: min-content;
     max-width: 1200px;
     overflow: hidden;
@@ -395,32 +301,21 @@ textarea {
     display: flex;
     flex: 0 0 auto;
     flex-flow: column nowrap;
-<<<<<<< HEAD
     gap: 0px;
-=======
-    gap: 16px;
->>>>>>> origin/main
     height: min-content;
     overflow: hidden;
     padding: 0px;
     position: relative;
     width: 100%;
-<<<<<<< HEAD
 
 }
 
 .output-header h2 {
-=======
-}
-
-.output-header h3 {
->>>>>>> origin/main
     font-family: "Manrope", serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 800;
     letter-spacing: 0px;
-<<<<<<< HEAD
     line-height: 1.2em;
     text-align: start;
     color: #ea526f;
@@ -428,14 +323,6 @@ textarea {
     text-transform: none;
     margin-bottom: 0px;
 
-=======
-    line-height: 1.4em;
-    text-align: start;
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: none;
-    margin: 0;
->>>>>>> origin/main
 }
 
 .output-content {
@@ -446,7 +333,6 @@ textarea {
     justify-content: flex-start;
     flex-shrink: 0;
     transform: none;
-<<<<<<< HEAD
     
 }
 
@@ -456,14 +342,6 @@ textarea {
     color: #1b2021;
     margin-top: -5px;
 
-=======
-}
-
-.output-content p {
-    text-align: center;
-    white-space: pre-line;
-    color: rgba(255, 255, 255, 0.5);
->>>>>>> origin/main
 }
 
 @media (min-width: 810px) and (max-width: 1199px) {
